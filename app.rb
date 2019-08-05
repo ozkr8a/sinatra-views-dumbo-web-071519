@@ -6,4 +6,8 @@ class App < Sinatra::Base
 		"<h1> Hello World</h1>"
 		erb :index
 	end
+	
+	get "/info"
+	  "Testing the info page"
+	end
 end
